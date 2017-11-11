@@ -10,7 +10,7 @@ PRODUCT_COPY_FILES += \
 
 # Kernel
 PRODUCT_COPY_FILES += \
-	$(DEVICE_PATH)/kernel:kernel
+	device/xiaomi/land/Kernel/kernel:kernel
 
 # Charger
 PRODUCT_PACKAGES += \
