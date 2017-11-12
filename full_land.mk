@@ -14,7 +14,8 @@ PRODUCT_COPY_FILES += \
 
 # Charger
 PRODUCT_PACKAGES += \
-	charger_res_images
+	charger_res_images \
+	charger
 
 # Encryption
 PRODUCT_PACKAGES += \
