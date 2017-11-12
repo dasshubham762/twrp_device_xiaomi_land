@@ -12,6 +12,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	device/xiaomi/land/kernel/kernel:kernel
 
+# Screen Resolution
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
+
 # Charger
 PRODUCT_PACKAGES += \
 	charger_res_images \
