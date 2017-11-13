@@ -1,29 +1,7 @@
-# Telephony
+# Inherit Device Specifications
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-
-# Languages
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
-
-# Time Zone Data
-PRODUCT_COPY_FILES += \
-	bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
-
-# Kernel
-PRODUCT_COPY_FILES += \
-	device/xiaomi/land/kernel/kernel:kernel
-
-# Screen Resolution
-TARGET_SCREEN_HEIGHT := 1280
-TARGET_SCREEN_WIDTH := 720
-
-# Charger
-PRODUCT_PACKAGES += \
-	charger_res_images \
-	charger
-
-# Encryption
-PRODUCT_PACKAGES += \
-	libcryptfs_hw
 
 # Device Informations
 PRODUCT_DEVICE := land

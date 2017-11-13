@@ -19,4 +19,6 @@ $(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Device Information.
 $(call inherit-product, device/xiaomi/land/full_land.mk)
+$(call inherit-product, device/xiaomi/land/device.mk)
+
 PRODUCT_NAME := omni_land
