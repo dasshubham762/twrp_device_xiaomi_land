@@ -8,6 +8,7 @@ TARGET_SCREEN_WIDTH := 720
 
 # Charger
 PRODUCT_PACKAGES += \
+	charger \
 	charger_res_images
 
 # Encryption
