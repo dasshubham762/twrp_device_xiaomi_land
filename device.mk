@@ -17,4 +17,4 @@ PRODUCT_PACKAGES += \
 
 # Kernel
 PRODUCT_COPY_FILES += \
-	device/xiaomi/land/kernel/kernel:kernel
+	device/xiaomi/land/prebuilt/zImage:kernel
